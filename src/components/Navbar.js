@@ -84,7 +84,7 @@ export default function Navbar(props) {
               props.mode === "light" ? "dark" : "light"
             }`}
           >
-            <input
+            <input  style={{ cursor: "pointer" }} 
               className="form-check-input"
               type="checkbox"
               onClick={() => {
