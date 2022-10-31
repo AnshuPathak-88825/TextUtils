@@ -93,14 +93,14 @@ export default function Navbar() {
               theme.mode === 'light' ? 'dark' : 'light'
             }`}
           >
-            <input
+            <input style={{ cursor: "pointer" }}
               className="form-check-input"
               type="checkbox"
               onClick={handleToggleTheme}
               role="switch"
               id="flexSwitchCheckDefault"
             />
-            <label
+            <label 
               className="form-check-label"
               htmlFor="flexSwitchCheckDefault"
             >
