@@ -100,7 +100,7 @@ export default function Navbar() {
               role="switch"
               id="flexSwitchCheckDefault"
             />
-            <label 
+            <label style={{ cursor: "pointer" }} 
               className="form-check-label"
               htmlFor="flexSwitchCheckDefault"
             >
